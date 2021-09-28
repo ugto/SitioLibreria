@@ -1,0 +1,23 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik&family=Sniglet&display=swap');
+
+*{
+    box-sizing: content-box;
+}
+header,section{
+    overflow-x: hidden;
+}
+
+:root{
+    --Snigle-font:"Snigle",cursive;
+    --Rubik:"Rubik",cursive;
+    --Patua:"Patua",cursive;
+    --Lobster:"Lobster",cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom,#dd2476,#ff512f);
+    --ligth-gray:rgba(255,255,2550);
+}
+
+.header{
+    font-family: var(--Lobster);
+}
